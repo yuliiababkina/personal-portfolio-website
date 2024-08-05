@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Personal Portfolio Website</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Nunito:wght@200..1000&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="header-navbar">
+                    <a class="header-logo" href="">Yuba</a>
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a class="header-link" href="">Home</a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="">About</a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="">Services</a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="">Portfolio</a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="">Achievements</a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero-section">
+                <div class="container hero-container">
+                    <h2 class="hero-subtitle">Hello & Welcome</h2>
+                    <h1 class="hero-title">
+                        I Am A <span class="auto-type">Developer</span>
+                    </h1>
+                    <ul class="hero-soc-list">
+                        <li class="hero-soc-item">
+                            <a
+                                class="hero-soc-link"
+                                href="https://github.com/yuliiababkina"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="hero-soc-icon"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-github"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="hero-soc-item">
+                            <a
+                                class="hero-soc-link"
+                                href="https://www.linkedin.com/in/yuliia-babkina/"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="hero-soc-icon"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-linkedin"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="hero-soc-item">
+                            <a
+                                class="hero-soc-link"
+                                href="https://www.facebook.com/profile.php?id=100023174014488"
+                                target="_blank"
+                                ><svg
+                                    class="hero-soc-icon"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-facebook"
+                                    ></use></svg
+                            ></a>
+                        </li>
+                        <li class="hero-soc-item">
+                            <a
+                                class="hero-soc-link"
+                                href="https://www.instagram.com/yuliia.babkina/"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="hero-soc-icon"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="hero-soc-item">
+                            <a class="hero-soc-link" href="">
+                                <svg
+                                    class="hero-soc-icon"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-google"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="hero-btn">
+                        <a class="hero-btn-link" download=""> Download CV </a>
+                    </div>
+                </div>
+
+                <div class="scroll-down">
+                    <a class="scroll" href=""></a>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Developer.", "Designer."],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true,
+            });
+        </script>
+    </body>
+</html>
